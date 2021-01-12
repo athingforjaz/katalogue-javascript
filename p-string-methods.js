@@ -34,3 +34,7 @@ log(`And we can make it Camel Case: ${camelStr}`)
 log()
 
 log(`Well, that was a lot of work to not actually change the string at all. Here it is! ${str}`)
+
+// Things I Learned:
+// - I'm glad I looked at capitalization options, because before, I was splitting into an array and looping through, but there are much simpler options!
+

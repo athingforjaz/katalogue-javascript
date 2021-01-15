@@ -13,9 +13,8 @@ anagrams = (aStringOfChars) => {
         let char = aStringOfChars[i]
         let otherChars = aStringOfChars.slice(0, i) + aStringOfChars.slice(i+1, aStringOfChars.length)
 
-        // My understanding is that "anagrams(otherChars)" in the loop below is basically equivalent to the array that it returns (ie, a function is equivalent to its return) but I would like to figure out how to capture that return and use that here instead of "anagrams(otherChars)"...but I am honestly not sure where that needs to be set at. I tried just before the return, but it breaks (as it should, because what happens the first time the loop runs?)
-
-        for (let subsetOfChars of anagrams(otherChars)) {
+        let anagrammed = anagrams(otherChars)
+        for (let subsetOfChars of anagrammed) {
             allWords.push(char + subsetOfChars)
         }
     }

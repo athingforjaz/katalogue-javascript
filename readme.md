@@ -6,6 +6,7 @@ Inspired by Nelson Foltz's [awesome work with C# and Ruby katas](https://github.
 $ `npm install prompt-sync`
 $ `node filename.js`
 
+
 ## Use
 Per Nelson, "A compilation of fully functional programs that you can copy, paste, and run. The idea is for them to be used in the form of a kata as a way to learn syntax and vocabulary through repetition."
 
